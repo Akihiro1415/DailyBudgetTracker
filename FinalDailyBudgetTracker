@@ -379,7 +379,7 @@ public class DailyBudgetTracker {
                                 }
                                 System.out.println("Budgets:");
                                 for (int i = 0; i < budgetCount; i++) {
-                                    System.out.println(i + ": Income = " + income[i] + ", Savings = " + savings[i] + ", Total Budget = " + budget[i]);
+                                    System.out.println(i + ": Income = " + income[i] + "\nSavings = " + savings[i] + "\nTotal Budget = " + budget[i]);
                                 }
                                 System.out.print("Enter index to remove: ");
                                 int bIndex = scan.nextInt();
@@ -408,7 +408,7 @@ public class DailyBudgetTracker {
                             System.out.println("Expenses:");
                             for (int i = 0; i < expensesCount; i++) {
                                 System.out.println("");
-                                System.out.println(i + ": Category = " + category[i] + ", Amount = " + amount[i]);
+                                System.out.println(i + ": Category = " + category[i] + "\nAmount = " + amount[i]);
                             }
                             System.out.print("Enter index to remove: ");
                             int eIndex = scan.nextInt();
@@ -433,7 +433,7 @@ public class DailyBudgetTracker {
                             }
                             System.out.println("Bills:");
                             for (int i = 0; i < billCount; i++) {
-                                System.out.println(i + ": Water Bill = " + WB[i] + ", Electricity Bill = " + EB[i] + ", Extra Bill = " + extraBillsCategory[i] + " : " + extraBillsAmount[i] + ", Total Bill = " + totalBill[i]);
+                                System.out.println(i + ": Water Bill = " + WB[i] + "\nElectricity Bill = " + EB[i] + "\n Extra Bill = " + extraBillsCategory[i] + " : " + extraBillsAmount[i] + "\nTotal Bill = " + totalBill[i]);
                             }
                             System.out.print("Enter index to remove: ");
                             int billIndex = scan.nextInt();
@@ -459,7 +459,7 @@ public class DailyBudgetTracker {
                             }
                             System.out.println("Debts:");
                             for (int i = 0; i < debtCount; i++) {
-                                System.out.println(i + ": Category = " + debtCat[i] + ", Total Debt = " + totalD[i]);
+                                System.out.println(i + ": Category = " + debtCat[i] + "\nTotal Debt = " + totalD[i]);
                             }
                             System.out.print("Enter index to remove: ");
                             int dIndex = scan.nextInt();
